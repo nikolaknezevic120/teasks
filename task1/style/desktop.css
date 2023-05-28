@@ -1,0 +1,67 @@
+@media only screen and (min-width: 600px) {
+
+    .main-container {
+        /* Auto layout */
+
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        padding: 0px 0px 0px 0px;
+
+        background: #E3CFCF;
+    }
+
+    .img {
+        width: 50%;
+    }
+
+    #imgId {
+        width: 50vw;
+    }
+
+    .text-section {
+        padding-left: 7.2%;
+        padding-right: 7.2%;
+        margin-top: -2.5%;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-left: 33%;
+        padding: 0px 0px 0px 0px;
+
+        position: relative;
+        width: 170px;
+        height: 52px;
+
+        background: #E3CFCF;
+
+        /* Inside auto layout */
+
+        flex: none;
+        order: 1;
+        flex-grow: 0;
+    }
+
+    #btn_text {
+        display: flex;
+        flex-direction: row;
+        align-self: center;
+        font-family: 'Fira Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 130%;
+        /* or 18px */
+
+        /* Primary/Black */
+
+        color: #000000;
+    }
+
+    #btn_less {
+        display: none;
+    }
+}

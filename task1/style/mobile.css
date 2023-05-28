@@ -1,0 +1,26 @@
+@media only screen and (max-width: 599px) {
+    .main-container{
+        flex-direction: column;
+    }
+    
+    .img{
+        width: 100vw;
+    }
+
+    #imgId{
+        width: 100vw;
+    }
+
+    .text-section {
+        display: flex;
+        flex-direction: column;
+        padding-left: 4.2%;
+        padding-right: 4.2%;
+        margin-top: 20%;
+    }
+
+    .btn{
+        width: 50%;
+        margin-left: 25%;
+    }
+}

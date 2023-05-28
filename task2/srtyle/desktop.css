@@ -1,0 +1,20 @@
+@media only screen and (min-width: 600px) {
+    .main-content {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #middle-box{
+        align-self: center;
+        width: 75%;
+    }
+
+    h1 {
+        margin-top: 5%;
+    }
+
+    #middle-text{
+        position: relative;
+        top: -1%;
+    }
+}
